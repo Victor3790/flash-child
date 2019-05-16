@@ -13,4 +13,6 @@ jQuery(document).ready(function ($) {
     mySwiper.slidePrev(900);
   });
 
+  $(window).enllax();
+
 });

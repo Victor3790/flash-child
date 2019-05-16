@@ -11,8 +11,11 @@
 
 ?>
 
+<?php if(!is_front_page()) : ?>
 		</div><!-- .tg-container -->
 	</div><!-- #content -->
+<?php endif; ?>
+
 
 	<?php
 	/**
