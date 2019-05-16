@@ -4,8 +4,8 @@
     <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/slide1.jpg" alt=""> </div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/slide2.jpg" alt=""> </div>
+        <div class="swiper-slide"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/slide3.jpg" alt=""> </div>
         ...
     </div>
     <!-- If we need pagination -->
