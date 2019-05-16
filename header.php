@@ -195,5 +195,10 @@ do_action( 'flash_before' ); ?>
 	 */
 	do_action( 'flash_before_main' ); ?>
 
+	<?php if(is_front_page()) :
+					get_template_part('includes/slider');
+				endif;
+	?>
+
 	<div id="content" class="site-content">
 		<div class="tg-container">
