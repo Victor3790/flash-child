@@ -1,18 +1,73 @@
-.logo img{
-  width: 130px;
+#aviso{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+  background-color: #000;
+  color: #c9c5c5;
+}
+
+.boton{
+  border: 5px solid #c9c5c5;
+  cursor: pointer;
+}
+
+.boton h3{
+  padding: 15px 50px;
+}
+
+.boton a{
+  color: #c9c5c5;
+}
+
+#page{
+  background-color: #000;
+  color: #c9c5c5;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0px;
+}
+
+h1, h2, h3{
+  font-family: 'Oswald', sans-serif;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+}
+
+.header-bottom{
+  background-color: rgba(0,0,0,0.6);
+}
+
+#site-navigation ul{
+  overflow: hidden;
+}
+
+#site-navigation ul li a{
+    color: #fff;
+}
+
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background-image: url('../img/fondo.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 #primary{
   width: 100%;
-}
-
-.swiper-container {
-    width: 100%;
-    height: 65vh;
-    min-height: 300px;
-    max-height: 600px;
-    border-top: 8px solid #000;
-    border-bottom: 8px solid #000;
 }
 
 #main{
@@ -20,26 +75,30 @@
 }
 
 #filosofia{
-  overflow: hidden;
-  margin-top: 5%;
-  margin-bottom: 10%;
+  padding: 10%;
 }
 
-#filosofia .texto{
-  height: 100%;
+#filosofia h2{
+  text-align: center;
 }
 
-#filosofia .texto, #filosofia .imagen{
+#filosofia p{
+  text-align: center;
+  line-height: 2em;
+  padding: 5% 10% 10% 15%;
+}
+
+#botellas{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 50%;
-  float: left;
+  justify-content: space-between;
+  margin-bottom: 40%;
 }
 
-#filosofia .texto p{
-  padding: 5% 15%;
+
+
+.imagenBotella h3{
+  text-align: center;
+  margin-top: 50px;
 }
 
 #mensaje{
@@ -64,20 +123,30 @@
   text-align: center;
 }
 
-#productos{
-  margin-bottom: 5%;
+#video{
+  margin: 15% 0;
 }
 
-#productos h2{
-  margin-bottom: 5%;
+#contacto{
+  margin: 15% 0;
 }
 
-.catalogo{
-  display: flex;
-  justify-content: space-between;
+#contacto h2{
+  text-align: center;
+  margin-bottom: 15%;
 }
 
-.catalogo img{
-  display: block;
-  width: 500px;
+@media screen and (min-width: 900px){
+  #filosofia p{
+    padding: 5% 30% 10% 35%;
+  }
+
+  .imagenBotella{
+    width: 25%;
+  }
+
+  #botellas{
+    padding: 0 15%;
+    margin-bottom: 10%;
+  }
 }

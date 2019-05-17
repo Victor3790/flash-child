@@ -9,8 +9,18 @@
  */
 
 get_header(); ?>
+<div id="aviso">
+	<h2>¿Eres mayor de edad?</h2>
+	<div id="si" class="boton">
+		<h3>Sí</h3>
+	</div>
+	<div id="no" class="boton">
+		<a href="http://www.alcoholinformate.org.mx"><h3>No</h3></a>
+	</div>
+</div>
 
-<?php get_template_part('includes/slider'); ?>
+<div id="header">
+</div>
 
 <div id="content" class="site-content">
 	<div class="tg-container">
@@ -25,7 +35,7 @@ get_header(); ?>
 
 				<div id="filosofia">
 					<div class="texto">
-						<h2>Filosofía</h2>
+						<h2>MEZCAL JOVEN VIEJO</h2>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -36,8 +46,16 @@ get_header(); ?>
 							culpa qui officia deserunt mollit anim id est laborum.
 						</p>
 					</div>
-					<div class="imagen">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/filosofia.jpg" alt="">
+				</div>
+
+				<div id="botellas">
+					<div class="imagenBotella">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arroqueno.jpg" alt="">
+						<h3>Arroqueño</h3>
+					</div>
+					<div class="imagenBotella">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bicuishe.jpg" alt="">
+						<h3>Bicuishe</h3>
 					</div>
 				</div>
 			</div><!-- #main -->
@@ -55,23 +73,37 @@ get_header(); ?>
 <div id="mensaje" data-enllax-ratio="0.2">
 	<div class="tg-container">
 		<div class="content">
-			<h2>Sólo para paladares conocedores</h2>
-			<h3>Mezcal 100% mexicano</h3>
+			<h2>Mezcal 100% mexicano</h2>
 		</div>
 	</div>
 </div>
 
-<div id="productos">
-	<div class="tg-container">
-		<div class="content">
-			<h2>Nuestros productos</h2>
-			<div class="catalogo">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/p1.jpg" alt="">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/p2.jpg" alt="">
-			</div>
+<div id="video">
+	<div class="site-content">
+		<div class="tg-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Iy23_K3nGWA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 	</div>
 </div>
+
+<div id="contacto">
+	<div class="site-content">
+		<div class="tg-container">
+			<h2>Contacto</h2>
+			<p>Teléfono: 595 101 9267</p>
+			<p>hola@mezcaljovenviejo.com</p>
+			<p>info@mezcaljovenviejo.com</p>
+			<p>sales@mezcaljovenviejo.com</p>
+		</div>
+	</div>
+</div>
+
+<!--<div id="productos">
+	<div class="tg-container">
+		<h2>Nuestros productos</h2>
+		<?php //get_template_part('includes/slider'); ?>
+	</div>
+</div>-->
 <?php
 get_footer();
 ?>
