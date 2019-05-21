@@ -12,6 +12,7 @@ function my_theme_enqueue_styles() {
     wp_enqueue_style( 'custom_font_header', 'https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
     wp_enqueue_script( 'swiper-script', get_template_directory_uri() . '/js/swiper.jquery.min.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('flash-child-script', get_stylesheet_directory_uri() . '/js/flash_child_custom.js', array('jquery'),'1.0.0', true);
+    wp_enqueue_script('youtube-script', get_stylesheet_directory_uri() . '/js/youtube.js', array('jquery'),'1.0.0', true);
     wp_enqueue_script('flash-child-parallax-script', get_stylesheet_directory_uri() . '/js/jquery.enllax.min.js', array('jquery'), '1.0.0', true);
 }
 

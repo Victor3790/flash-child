@@ -25,6 +25,8 @@ get_header(); ?>
 					<main>
 
 						<div id="hero">
+							<h1>MEZCAL JOVEN VIEJO</h1>
+							<h2>Una tradición milenaria</h2>
 						</div>
 
 							<div class="tg-container">
@@ -52,11 +54,9 @@ get_header(); ?>
 								<div id="botellas">
 									<div class="imagenBotella">
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arroqueno.jpg" alt="">
-										<h3>Arroqueño</h3>
 									</div>
 									<div class="imagenBotella">
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bicuishe.jpg" alt="">
-										<h3>Bicuishe</h3>
 									</div>
 								</div>
 
@@ -72,7 +72,9 @@ get_header(); ?>
 
 						<div class="tg-container">
 							<div id="video">
-										<iframe width="560" height="315" src="https://www.youtube.com/embed/Iy23_K3nGWA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<h2>Hecho por los mejores maestros mezcaleros</h2>
+								<div id="player">
+								</div>
 							</div>
 
 							<div id="contacto">
