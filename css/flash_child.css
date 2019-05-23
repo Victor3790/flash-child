@@ -1,0 +1,48 @@
+#page, #flash-breadcrumbs, .entry-content{
+  background-color: #000;
+  color: #c9c5c5 !important;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0px;
+}
+
+h1, h2, h3{
+  font-family: 'Oswald', sans-serif;
+}
+
+#site-navigation .menu{
+  background-color: #000 !important;
+}
+
+.header-bottom{
+  background-color: rgba(0,0,0,0.6);
+}
+
+#site-navigation ul{
+  overflow: hidden;
+}
+
+#site-navigation ul li a{
+    color: #fff;
+}
+
+.menu-toggle span{
+  display: block;
+  width: 35px;
+  height: 4px;
+  background-color: #c9c5c5;
+  margin: 6px 0;
+}
+
+#primary{
+  width: 100%;
+}
+
+#main{
+  overflow: hidden;
+}
+
+@media screen and (min-width: 980px){
+  #site-navigation .menu{
+    background-color: transparent !important;
+  }
+}
