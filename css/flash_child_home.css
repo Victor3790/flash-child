@@ -4,12 +4,31 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   position: fixed;
   top: 0;
   z-index: 999999;
   background-color: #000;
   color: #c9c5c5;
+}
+
+#aviso img{
+  width: 45%;
+}
+
+#pregunta{
+  margin-top: 5%;
+}
+
+#botones{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+#si{
+  margin-right: 5%;
 }
 
 .boton{
@@ -115,7 +134,17 @@ header{
   margin-bottom: 5%;
 }
 
+@media screen and (min-width: 720px){
+  #aviso img{
+    width: 30%;
+  }
+}
+
 @media screen and (min-width: 980px){
+  #aviso img{
+    width: 20%;
+  }
+
   #filosofia h2{
     padding: 0 30% 0 35%;
   }

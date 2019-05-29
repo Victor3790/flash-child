@@ -10,12 +10,17 @@
 
 get_header(); ?>
 <div id="aviso">
-	<h2>¿Eres mayor de edad?</h2>
-	<div id="si" class="boton">
-		<h3>Sí</h3>
+	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logoPortada.png" alt="">
+	<div id="pregunta">
+		<h2>¿Eres mayor de edad?</h2>
 	</div>
-	<div id="no" class="boton">
-		<a href="http://www.alcoholinformate.org.mx"><h3>No</h3></a>
+	<div id="botones">
+		<div id="si" class="boton">
+			<h3>Sí</h3>
+		</div>
+		<div id="no" class="boton">
+			<a href="http://www.alcoholinformate.org.mx"><h3>No</h3></a>
+		</div>
 	</div>
 </div>
 
