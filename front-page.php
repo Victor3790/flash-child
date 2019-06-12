@@ -31,7 +31,7 @@ get_header(); ?>
 
 						<div id="hero">
 							<h1>MEZCAL JOVEN VIEJO</h1>
-							<h2>Una tradición milenaria</h2>
+							<h2>Mezcales de antaño</h2>
 						</div>
 
 							<div class="tg-container">
@@ -45,13 +45,12 @@ get_header(); ?>
 									<div class="texto">
 										<h2>MEZCAL JOVEN VIEJO</h2>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-											eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-											enim ad minim veniam, quis nostrud exercitation ullamco laboris
-											nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-											reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-											pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-											culpa qui officia deserunt mollit anim id est laborum.
+											Una marca de mezcal joven con un espíritu viejo.
+											Nuestro mezcal nace de las entrañas de la tierra de oaxaca
+											y es hecho por manos mexicanas de manera artesanal.
+											Los mejores mezcales de antaño, una tradición pasada
+											de generación en generación de mezcaleros y traída hasta
+											el día de hoy para un público joven. 
 										</p>
 									</div>
 								</div>
