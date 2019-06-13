@@ -69,7 +69,7 @@ get_header(); ?>
 						<div id="mensaje" data-enllax-ratio="0.2">
 							<div class="tg-container">
 								<div class="content">
-									<h2>Mezcal 100% mexicano</h2>
+									<h2>Mezcal artesanal de autor</h2>
 								</div>
 							</div>
 						</div>
