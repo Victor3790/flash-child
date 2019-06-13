@@ -41,6 +41,19 @@ h1, h2, h3{
   overflow: hidden;
 }
 
+#social h4{
+  margin-bottom: 20px;
+}
+
+#social a{
+  color: #fff;
+}
+
+#social a i{
+  font-size: 40px;
+  margin-left: 20px;
+}
+
 @media screen and (min-width: 980px){
   #site-navigation .menu{
     background-color: transparent !important;

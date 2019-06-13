@@ -9,6 +9,17 @@
  * @package Flash
  */
 
+ /**
+ * Extra code for an html social menu widget
+ *<div id="social">
+ * <h4>Síguenos</h4>
+ * <a href="#"><i class="fa fa-facebook"></i></a>
+ * <a href="#"><i class="fa fa-instagram"></i></a>
+ *</div>
+ *
+ *
+ */
+
 ?>
 
 <?php if(!is_front_page()) : ?>
