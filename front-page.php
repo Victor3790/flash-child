@@ -50,7 +50,7 @@ get_header(); ?>
 											y es hecho por manos mexicanas de manera artesanal.
 											Los mejores mezcales de antaño, una tradición pasada
 											de generación en generación de mezcaleros y traída hasta
-											el día de hoy para un público joven. 
+											el día de hoy para un público joven.
 										</p>
 									</div>
 								</div>
