@@ -30,8 +30,13 @@ get_header(); ?>
 					<main>
 
 						<div id="hero">
-							<h1>MEZCAL JOVEN VIEJO</h1>
-							<h2>Mezcales de antaño</h2>
+							<div id="hero-message">
+								<h1>MEZCAL JOVEN VIEJO</h1>
+								<p>
+									Desde el corazón de los agaves y desde el nuestro hacemos
+									tuyo un mezcal con digno significado.
+								</p>
+							</div>
 						</div>
 
 							<div class="tg-container">
@@ -43,26 +48,27 @@ get_header(); ?>
 
 								<div id="filosofia">
 									<div class="texto">
-										<h2>MEZCAL JOVEN VIEJO</h2>
+										<h2>Quiénes somos</h2>
 										<p>
-											Una marca de mezcal joven con un espíritu viejo.
-											Nuestro mezcal nace de las entrañas de la tierra de oaxaca
-											y es hecho por manos mexicanas de manera artesanal.
-											Los mejores mezcales de antaño, una tradición pasada
-											de generación en generación de mezcaleros y traída hasta
-											el día de hoy para un público joven.
+											Somos una marca cooperativa de mezcales de autor presentada por las
+											maestras y los maestros mezcaleros originarios de Oaxaca,
+											 México que elaboramos destilados artesanales y ancestrales
+											  con variedades Espadín y Silvestres como: Arroqueño,
+												Bicuixe, Madrecuixe, Mexicano, Tepeztate, Tobalá y en
+												momentos únicos ofrecemos Ediciones Especiales de Jabalí
+												y Destilado Cucharilla
 										</p>
 									</div>
 								</div>
 
-								<div id="botellas">
+								<!--<div id="botellas">
 									<div class="imagenBotella">
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arroqueno.jpg" alt="">
 									</div>
 									<div class="imagenBotella">
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bicuishe.jpg" alt="">
 									</div>
-								</div>
+								</div>-->
 
 						</div><!--tg-container-->
 
@@ -76,15 +82,27 @@ get_header(); ?>
 
 						<div class="tg-container">
 							<div id="video">
-								<h2>Hecho por los mejores maestros mezcaleros</h2>
+								<h2>Hecho desde el corazón</h2>
+								<p>
+									Los maestros y las maestras somos especialistas en la variedad
+									de agave usada para la elaboración de cada destilado.
+									En el proceso empleamos agua de los manantiales de nuestras
+									comunidades en Oaxaca; tahonas para molienda de cantera
+									talladas a mano, ollas de barro y tinas de fermentación
+									únicamente artesanales. Al final envasamos y etiquetamos
+									con especial cuidado una a una las botellas que con mucho
+									cariño llevan impresa la firma de su autora o autor quienes
+									trabajamos a través de la herencia de nuestros antepasados
+									a través de ésta bebida cultural.
+								</p>
 								<div id="player">
 								</div>
 							</div>
 
 							<div id="contacto">
 								<h2>Contacto</h2>
-								<p>Teléfono: 595 101 9267</p>
-								<p>hola@mezcaljovenviejo.com</p>
+								<p>Teléfono: (951) 4268312</p>
+								<p>contacto@mezcaljovenviejo.com</p>
 								<p>info@mezcaljovenviejo.com</p>
 								<p>sales@mezcaljovenviejo.com</p>
 							</div>

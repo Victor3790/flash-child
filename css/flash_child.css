@@ -1,3 +1,7 @@
+body{
+  min-width: 300px;
+}
+
 #page, #flash-breadcrumbs, .entry-content{
   background-color: #000;
   color: #c9c5c5 !important;
