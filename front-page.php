@@ -61,14 +61,6 @@ get_header(); ?>
 									</div>
 								</div>
 
-								<!--<div id="botellas">
-									<div class="imagenBotella">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arroqueno.jpg" alt="">
-									</div>
-									<div class="imagenBotella">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bicuishe.jpg" alt="">
-									</div>
-								</div>-->
 
 						</div><!--tg-container-->
 
@@ -96,6 +88,7 @@ get_header(); ?>
 									a través de ésta bebida cultural.
 								</p>
 								<div id="player">
+									<i id="load" class="fa fa-youtube-play"></i>
 								</div>
 							</div>
 
