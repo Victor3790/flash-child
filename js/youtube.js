@@ -8,6 +8,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 let load = document.getElementById('load');
 load.addEventListener('click', function(){
 
+  console.log('hola')
   // 3. This function creates an <iframe> (and YouTube player)
   //    after the API code downloads.
   var player;
